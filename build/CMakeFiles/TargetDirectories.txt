@@ -1,0 +1,3 @@
+/Users/a/Desktop/c_c++/c++_program/build/CMakeFiles/second.dir
+/Users/a/Desktop/c_c++/c++_program/build/CMakeFiles/edit_cache.dir
+/Users/a/Desktop/c_c++/c++_program/build/CMakeFiles/rebuild_cache.dir

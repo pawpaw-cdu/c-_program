@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "C++ Launch with OpenCV",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "DYLD_LIBRARY_PATH",
+          "value": "/usr/local/lib:/opt/homebrew/lib"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang++ build active file with OpenCV"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/a/Desktop/c:c++/c++_program",
+      "program": "/Users/a/Desktop/c:c++/c++_program/build/Debug/outDebug"
+    }
+  ]
+}
